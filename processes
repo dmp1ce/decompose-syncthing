@@ -11,7 +11,7 @@ _decompose-process-cron() {
   _decompose-process-docker-build
   docker-compose up -d
   decompose remove-dangling-docker-images
-  decompose backup_config
+  #decompose backup_config
 }
 _decompose-process-cron_help() {
   echo "  Runs actions that should be scheduled through host cron"
